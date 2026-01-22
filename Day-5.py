@@ -1,6 +1,5 @@
 ## while_loops.py (examples + answers)
 
-
 # 1. Print numbers from 10 to 1
 i = 10
 while i >= 1:
