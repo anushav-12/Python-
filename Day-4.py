@@ -46,4 +46,5 @@ for ch in word:
 
 print("Vowel count:", count)
 
+print("Practice continues")
 
