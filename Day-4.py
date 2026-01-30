@@ -1,3 +1,24 @@
+# Syntax
+for variable in sequence:
+# code to repeat
+
+"""
+range() – Backbone of for Loop
+🔹 range(start, stop, step)
+
+start → where to begin (default = 0)
+
+stop → where to stop (excluded)
+
+step → jump (default = 1)
+
+Examples:
+range(5)          → 0,1,2,3,4
+range(1, 6)       → 1,2,3,4,5
+range(1, 10, 2)   → 1,3,5,7,9
+
+"""
+                         
 # FOR LOOP PRACTICE – QUESTIONS & ANSWERS
 
 # Q1: Print numbers from 1 to 10
