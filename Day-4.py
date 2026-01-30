@@ -17,8 +17,31 @@ range(5)          → 0,1,2,3,4
 range(1, 6)       → 1,2,3,4,5
 range(1, 10, 2)   → 1,3,5,7,9
 
+
+Example 1: Print numbers 1 to 5
+for i in range(1, 6):
+    print(i)
+
+Logic:
+i takes value 1, prints, then 2, 3, 4, 5, stops before 6.
+
+Example 2: Loop through a list
+languages = ["Python", "SQL", "Java"]
+
+for lang in languages:
+    print(lang)
+
+
+Logic:
+lang = "Python"
+then "SQL"
+then "Java"
+
+Example 3: Loop through a string
+for ch in "Anusha":
+    print(ch)
 """
-                         
+
 # FOR LOOP PRACTICE – QUESTIONS & ANSWERS
 
 # Q1: Print numbers from 1 to 10
