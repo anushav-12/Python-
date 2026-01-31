@@ -116,7 +116,7 @@ Execute block
 Update variable
 Repeat
 
-⚠️ Forgetting i += 1 → infinite loop
+-- Forgetting i += 1 → infinite loop
 -------------------------------------
 
 7. Infinite Loop Example 
