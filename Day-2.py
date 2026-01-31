@@ -1,3 +1,4 @@
+# variables
 name = "Anusha"
 age = 23
 height = 5.2
