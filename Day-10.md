@@ -1,4 +1,5 @@
 Python – Print Statement Notes
+
 1️⃣ What is the print() Statement?
 
 The print() function is used to display output on the screen.
