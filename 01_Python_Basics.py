@@ -1,5 +1,3 @@
-# Variables
-
 print("Hello");
 print("Day 1 of Python");
 
