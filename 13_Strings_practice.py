@@ -210,3 +210,25 @@ for ch in text:
         max_char = ch
 
 print("Most frequent character:", max_char)
+
+# ========================================
+
+🔹 isalpha, isdigit, isalnum
+text = "Python123"
+print(text.isalpha())   # False
+print(text.isdigit())   # False
+print(text.isalnum())   # True
+
+# ========================================
+
+🔹 f-strings (Modern Printing)
+name = "Anusha"
+age = 23
+
+# ========================================
+
+print(f"My name is {name} and I am {age} years old.")
+🔹 in keyword (Membership)
+text = "banana"
+print("a" in text)   # True
+print("z" in text)   # False
