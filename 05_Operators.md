@@ -5,11 +5,17 @@ Arithmetic operators are used to perform mathematical operations on numbers in P
 Python supports the following arithmetic operators:
 
 Addition (+)
+
 Subtraction (-)
+
 Multiplication (*)
+
 Division (/)
+
 Modulus (%)
+
 Floor Division (//)
+
 Exponentiation (**)
 
 --------------------------------------------------
