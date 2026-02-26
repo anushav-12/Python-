@@ -3,6 +3,7 @@ Python Arithmetic Operators Notes
 Arithmetic operators are used to perform mathematical operations on numbers in Python.
 
 Python supports the following arithmetic operators:
+
 Addition (+)
 Subtraction (-)
 Multiplication (*)
