@@ -116,10 +116,15 @@ b = int(input("Enter second number: "))
 print(f"The value of {a} + {b} is: {a + b}")
 
 print(f"The value of {a} - {b} is: {a - b}")
+
 print(f"The value of {a} * {b} is: {a * b}")
+
 print(f"The value of {a} / {b} is: {a / b}")
+
 print(f"The value of {a} % {b} is: {a % b}")
+
 print(f"The value of {a} // {b} is: {a // b}")
+
 print(f"The value of {a} ** {b} is: {a ** b}")
 
 ->> Important Note
