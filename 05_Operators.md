@@ -114,6 +114,7 @@ a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 
 print(f"The value of {a} + {b} is: {a + b}")
+
 print(f"The value of {a} - {b} is: {a - b}")
 print(f"The value of {a} * {b} is: {a * b}")
 print(f"The value of {a} / {b} is: {a / b}")
