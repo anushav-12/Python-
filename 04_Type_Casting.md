@@ -5,6 +5,7 @@ Python Type Casting (Type Conversion)
 Type Casting (Type Conversion) means converting one data type into another data type.
 
 Example:
+
 a = "10"   # string
 
 b = 5      # int
@@ -55,12 +56,18 @@ No data is lost
 Conversion is safe
 It is a widening conversion
 
-✅ Example: int → float
+✅ Example: 
+
+int → float
+
 a = 5       # int
+
 b = 2.5     # float
 
 c = a + b
+
 print(c)
+
 print(type(c))
 
 Output:
@@ -75,7 +82,9 @@ Why allowed?
 Because no precision is lost.
 
 ❌ float → int (Not implicit)
+
 a = 5.8
+
 b = 2
 
 print(a + b)
@@ -113,9 +122,11 @@ When we manually convert data types using functions.
 Converts to integer.
 
 a = "100"
+
 b = 10.8
 
 print(int(a))   # 100
+
 print(int(b))   # 10
 
 ⚠ Note:
@@ -129,20 +140,24 @@ int("10.5") ❌ Error
 Converts to float.
 
 a = "10"
+
 b = 5
 
 print(float(a))  # 10.0
+
 print(float(b))  # 5.0
 🔹 str()
 
 Converts anything to string.
 
 a = 100
+
 print(str(a))  # "100"
 
 Useful in concatenation:
 
 age = 22
+
 print("My age is " + str(age))
 🔹 bool()
 
@@ -151,28 +166,45 @@ Converts to Boolean.
 Rules:
 
 Value	Boolean Result
+
 0	False
+
 0.0	False
+
 ""	False
+
 None	False
+
 Everything else	True
+
 
 Example:
 
 print(bool(0))       # False
+
 print(bool(10))      # True
+
 print(bool(""))      # False
+
 print(bool("Hi"))    # True
+
+
 🔹 complex()
+
 print(complex(5))      # (5+0j)
+
 print(complex(2,3))    # (2+3j)
+
 ----------------------------------------------------------------------------------------
+
 5️⃣ Important Concept: Widening vs Narrowing
+
 🔹 Widening Conversion (Safe)
 
 Automatic
 
 int → float
+
 float → complex
 
 No data loss.
@@ -182,6 +214,7 @@ No data loss.
 Manual only
 
 float → int
+
 complex → float
 
 May lose precision.
@@ -195,9 +228,11 @@ int(5.8)
 Even if both numbers are int:
 
 a = 10
+
 b = 2
 
 print(a / b)
+
 print(type(a / b))
 
 Output:
@@ -208,7 +243,9 @@ Output:
 / always returns float.
 ----------------------------------------------------------------------------------------
 7️⃣ input() Always Returns String
+
 a = input("Enter number: ")
+
 b = input("Enter number: ")
 
 print(a + b)
@@ -216,6 +253,7 @@ print(a + b)
 Input:
 
 5
+
 5
 
 Output:
@@ -227,6 +265,7 @@ Because input() returns STRING.
 Correct way:
 
 a = int(input("Enter number: "))
+
 b = int(input("Enter number: "))
 
 print(a + b)
@@ -244,19 +283,27 @@ type(variable)
 Example:
 
 a = "10"
+
 print(type(a))
 
 a = int(a)
+
 print(type(a))
 ----------------------------------------------------------------------------------------
 9️⃣ Key Takeaways
 
 ✔ Type Casting = Changing data type
+
 ✔ Two types: Implicit & Explicit
+
 ✔ Python promotes types upward only
+
 ✔ No automatic data loss
+
 ✔ int → float is allowed
+
 ✔ float → int must be manual
+
 ✔ input() always returns string
 
 
