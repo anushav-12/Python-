@@ -6,6 +6,7 @@ Type Casting (Type Conversion) means converting one data type into another data 
 
 Example:
 a = "10"   # string
+
 b = 5      # int
 
 print(int(a) + b)
@@ -24,7 +25,9 @@ Python does NOT allow operations between incompatible data types.
 Example:
 
 a = "10"
+
 b = 5
+
 print(a + b)   # ❌ Error
 
 Because:
