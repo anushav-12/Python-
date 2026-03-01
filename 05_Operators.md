@@ -25,7 +25,9 @@ Used to add two numbers.
 
 ✅ Example:
 a = 10
+
 b = 5
+
 print(a + b)
 
 Output:
@@ -37,8 +39,11 @@ Output:
 Used to subtract one number from another.
 
 ✅ Example:
+
 a = 10
+
 b = 5
+
 print(a - b)
 
 Output:
@@ -50,8 +55,11 @@ Output:
 Used to multiply two numbers.
 
 ✅ Example:
+
 a = 10
+
 b = 5
+
 print(a * b)
 
 Output:
@@ -63,8 +71,11 @@ Output:
 Performs normal division and always returns a float value.
 
 ✅ Example:
+
 a = 10
+
 b = 3
+
 print(a / b)
 
 Output:
@@ -76,8 +87,11 @@ Output:
 Returns the remainder after division.
 
 ✅ Example:
+
 a = 10
+
 b = 3
+
 print(a % b)
 
 Output:
@@ -91,8 +105,11 @@ Output:
 Returns the integer part of the division (removes decimal part).
 
 ✅ Example:
+
 a = 10
+
 b = 3
+
 print(a // b)
 
 Output:
@@ -106,8 +123,11 @@ Output:
 Used to calculate power.
 
 ✅ Example:
+
 a = 2
+
 b = 3
+
 print(a ** b)
 
 Output:
@@ -117,7 +137,9 @@ Output:
 
 --------------------------------------------------
 example
+
 a = int(input("Enter first number: "))
+
 b = int(input("Enter second number: "))
 
 print(f"The value of {a} + {b} is: {a + b}")
@@ -139,7 +161,9 @@ print(f"The value of {a} ** {b} is: {a ** b}")
 If the second number (b) is 0:
 
 Division (/)
+
 Floor Division (//)
+
 Modulus (%)
 
 Will give an error: ZeroDivisionError
