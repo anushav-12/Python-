@@ -13,7 +13,9 @@ Ordered
 Indexed
 
 Immutable
+
 --------------------------------------------------------
+
 
 2️⃣ String Indexing
 
@@ -38,6 +40,7 @@ print(text[0])  # b
 print(text[3])  # a
 
 ------------------
+
 Negative Indexing
 
 Starts from -1 (end of string).
@@ -45,6 +48,7 @@ Starts from -1 (end of string).
 print(text[-1])  # a
 
 print(text[-2])  # n
+
 --------------------------------------------------------
 
 3️⃣ String Slicing
@@ -60,6 +64,7 @@ end → excluded
 step → jump value
 
 default step = 1
+
 --------------------------
 🔹 Basic Slicing
 
@@ -72,6 +77,7 @@ print(text[:3])    # ban
 print(text[2:])    # nana
 
 🔹 End is Always Excluded
+
 --------------------------------
 
 text = "banana"
@@ -91,6 +97,7 @@ Output:
 nan
 
 Index 5 is NOT included.
+
 --------------------------------------------------------
 
 4️⃣ Negative Slicing
@@ -108,6 +115,7 @@ Negative indexes are converted internally to positive.
 Example:
 
 text[-3:]  →  text[3:]
+
 --------------------------------------------------------
 
 5️⃣ Step in Slicing
@@ -148,6 +156,7 @@ Start from end
 Move backward
 
 Step = -1
+
 --------------------------------------------------------
 
 7️⃣ Negative Step (Backward Slicing)
@@ -181,6 +190,7 @@ Stop before 2
 Output:
 
 gfed
+
 --------------------------------------------------------
 
 8️⃣ Important Backward Rule
@@ -204,6 +214,7 @@ Output:
 geca
 
 You stop when you reach or cross the end boundary.
+
 --------------------------------------------------------
 
 9️⃣ No Wrapping Around
@@ -221,6 +232,7 @@ It will NOT include "b".
 Because slicing moves forward by default.
 
 It does NOT wrap to beginning.
+
 --------------------------------------------------------
 
 🔟 Key Rules Summary
@@ -236,6 +248,7 @@ It does NOT wrap to beginning.
 ✔ No circular slicing
 
 ✔ Negative indexes are converted to positive
+
 --------------------------------------------------------
 
 1️⃣1️⃣ Common Patterns
@@ -263,6 +276,7 @@ text[::-1]
 Every 2nd character
 
 text[::2]
+
 --------------------------------------------------------
 
 1️⃣2️⃣ Complexity
@@ -274,6 +288,7 @@ Time Complexity → O(n)
 Space Complexity → O(n)
 
 Because strings are immutable.
+
 --------------------------------------------------------
 
 1️⃣3️⃣ Immutability Concept
