@@ -20,9 +20,13 @@ Each character has a position.
 Example:
 
 text = "banana"
+
 b  a  n  a  n  a
+
 0  1  2  3  4  5
+
 -6 -5 -4 -3 -2 -1
+
 Positive Indexing
 
 Starts from 0.
