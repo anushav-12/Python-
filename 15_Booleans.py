@@ -107,8 +107,9 @@ bool([])       # False
 
 bool([1,2])    # True
 
--------------------------------------
+--------------------------------------------
 🔹 7. Practical Example (Data Perspective)
+    
 dlr_status = 30
 
 is_active = dlr_status in [30, 35]
@@ -120,7 +121,7 @@ is_payment_done = True
 if is_payment_done:
     print("Include in report")
 
-
+--------------------------------------------
 🧠 Key Points
 
 Boolean type = bool
